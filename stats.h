@@ -35,6 +35,12 @@
  *
  * @return <Add Return Informaiton here>
  */
-
+void printarray(unsigned char *array, unsigned int har);
+unsigned char find_mean(unsigned char *array, unsigned int har);
+unsigned char find_median(unsigned char *array, unsigned int har);
+unsigned char find_maximum(unsigned char *array, unsigned int har);
+unsigned char find_minimum(unsigned char *array, unsigned int har);
+void print_statistics(unsigned char *array, unsigned int har);
+void sort_array(unsigned char *array, unsigned int har);
 
 #endif /* __STATS_H__ */
