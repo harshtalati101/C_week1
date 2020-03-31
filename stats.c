@@ -70,15 +70,15 @@ void print_statistics(unsigned char *array, unsigned int har)
     
     int mean;
     mean = find_mean(array,har);
-    printf("\nMean is %i\n",mean);
+    printf("Mean is %i\n",mean);
    
     int minimum;
     minimum = find_minimum(array,har);
-    printf("\nMinimum number is %i\n", minimum);
+    printf("Minimum number is %i\n", minimum);
     
     int maximum;
     maximum = find_maximum(array,har);
-    printf("\nMaximum number is %i\n", maximum);
+    printf("Maximum number is %i\n", maximum);
 }
 
 
